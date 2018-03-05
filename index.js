@@ -6,5 +6,5 @@ const parseData = require('./lib/parse-data.js');
 
 readStdin()
   .then(parseData)
-  .then(util.logFormatted)
+  .then(util.logRaw)
   .catch(console.log);
