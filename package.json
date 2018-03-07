@@ -1,21 +1,21 @@
 {
   "name": "match-patterns",
   "version": "1.0.0",
-  "description": "",
+  "description": "A solution to an interview challenge problem using Ramda",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest -i --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertMcReed/match-patterns.git"
   },
-  "keywords": [],
+  "keywords": ["ramda", "trie", "paths", "patterns", "functional programming"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RobertMcReed/match-patterns/issues"
   },
