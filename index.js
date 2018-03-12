@@ -9,9 +9,8 @@ const findBestMatches = require('./lib/find-best-matches.js');
 
 readStdin()
   .then(parseData)
-  .then(util.logFormatted)
-  // .then(findMatches)
-  // .then(findBestMatches)
-  // .then(helpers.joinAsLines)
-  // .then(console.log)
+  .then(findMatches)
+  .then(findBestMatches)
+  .then(helpers.joinAsLines)
+  .then(console.log)
   .catch(console.log);
